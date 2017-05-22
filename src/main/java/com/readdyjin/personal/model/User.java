@@ -9,6 +9,36 @@ package com.readdyjin.personal.model;
 public class User {
     private long id;
     private String userName;
+    private short age;
+    private String password;
+    private String cellphone;
+
+    public short getAge() {
+        return age;
+    }
+
+    public User setAge(short age) {
+        this.age = age;
+        return this;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public User setPassword(String password) {
+        this.password = password;
+        return this;
+    }
+
+    public String getCellphone() {
+        return cellphone;
+    }
+
+    public User setCellphone(String cellphone) {
+        this.cellphone = cellphone;
+        return this;
+    }
 
     public String getUserName() {
         return userName;
@@ -20,7 +50,6 @@ public class User {
     }
 
     public long getId() {
-
         return id;
     }
 

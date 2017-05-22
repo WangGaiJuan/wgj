@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!--suppress SqlDialectInspection -->
+<!--suppress SqlDialectInspection, SqlNoDataSourceInspection -->
 <mapper namespace="com.readdyjin.personal.dao.UserDao">
     <!--设置domain类和数据库中表的字段一一对应，注意数据库字段和domain类中的字段名称不致，此处一定要！-->
 
@@ -10,22 +10,34 @@
     <resultMap id="BaseResultMap" type="com.readdyjin.personal.model.User">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <result column="user_name" property="userName" jdbcType="VARCHAR"/>
+        <result column="age" property="age" jdbcType="SMALLINT"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="cellphone" property="cellphone" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!-- 对应于 User.com.readdyjin.personal.dao.insert -->
     <insert id="insert" parameterType="com.readdyjin.personal.model.User">
         INSERT INTO app_user (
-        user_name
+        user_name,
+        password,
+        age,
+        cellphone
         )
         VALUES (
-        #{userName,jdbcType=VARCHAR}
+        #{userName,jdbcType=VARCHAR},
+        #{password,jdbcType=VARCHAR},
+        #{age,jdbcType=SMALLINT},
+        #{cellphone,jdbcType=VARCHAR}
         )
     </insert>
 
     <update id="update" parameterType="com.readdyjin.personal.model.User">
         UPDATE app_user
         SET
-          user_name=#{userName,jdbcType=VARCHAR}
+          user_name=#{userName,jdbcType=VARCHAR},
+          password=#{password,jdbcType=VARCHAR},
+          age=#{age,jdbcType=SMALLINT},
+          cellphone=#{cellphone,jdbcType=VARCHAR}
         WHERE id=${id}
     </update>
 
