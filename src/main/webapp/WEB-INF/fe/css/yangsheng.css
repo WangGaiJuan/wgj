@@ -1,0 +1,60 @@
+/* menu */
+
+.menu_log{
+	width:240px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	margin-left:110px;
+}
+
+/* 推荐-start */
+.perfect{
+	width:1100px;
+	height:1500px; 
+	margin-left:110px;
+	background-color: #FFF0F5;
+	padding:20px;
+}
+
+.perfect h2{
+	width:750px;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	padding-top: 10px;
+	color: #EE0000;
+	float: left;
+	margin-top:0px;
+}
+
+.log{
+	width:300px;
+	height:180px;
+	float: left;
+}
+
+.perfect span{
+	width:200px;
+	height:50px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #CD661D;
+	clear: both;
+	display: inline-block;
+}
+
+.img_log{
+	width:50px;
+	height: 50px;
+	margin-left:80px;
+}
+
+.perfect p{
+	font-size: 18px;
+	color:#2B2B2B;
+	clear: both;
+}
+/* 推荐-end */

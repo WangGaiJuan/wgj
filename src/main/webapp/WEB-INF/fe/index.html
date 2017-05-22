@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>吃货网</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/完美框架.js"></script>
+	<script type="text/javascript" src="js/holder.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+	<!-- header -->
+	<div class="row top">
+		<div class="col-md-8 col-md-offset-1">
+			<a href="index.html">吃货首页</a>
+			<a href="cookbook.html">菜谱</a>
+			<a href="Ingredients.html">食材</a>
+			<a href="health.html">健康</a>
+			<a href="meirongshoushen.html">美容瘦身</a>
+		</div>
+		<div class="col-md-1 col-md-offset-2">
+			<a href="login.html">登陆</a>
+			<a href="regist.html">注册</a>
+		</div>
+	</div>
+
+	<!-- search -->
+	<div class="row sear">
+		<div class="col-md-1"></div>
+		<div class="col-md-5 set_img"><img src="img/Mlog.png"></div>
+		<div class="col-md-6">
+			<div id="hid">
+				<img src="img/Mlog_02.png" >
+				<input type="text" class="tex" placeholder="Search">
+			</div>
+			<a href="javascript:;" class="sub">
+			<span class="glyphicon glyphicon-search" style="color:#000;">
+			</span></a>
+		</div>
+	</div>
+
+	<!--一级菜单 -->
+	<div class="row MenuSet">
+		<div class="navbar navbar-default Menu" role="navigation">
+			<div>
+				<ul id="setA" class="nav navbar-nav">
+					<li><a href="javascript:;">首页
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">菜谱
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">食材
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">美白
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">健康
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">专题
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">陕西特色
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+					<li><a href="javascript:;">评论
+					<span class="glyphicon glyphicon-menu-down"></span>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 二级菜单 -->
+	<div class="row child_menu">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="">首页</a></li>
+						</div>
+						<div class="two">
+							<li><a href="cookbook.html">川菜</a></li>
+							<li><a href="cookbook.html">粤菜</a></li>
+							<li><a href="cookbook.html">东北菜</a></li>
+							<li><a href="cookbook.html">湘菜</a></li>
+							<li><a href="cookbook.html">鲁菜</a></li>
+							<li><a href="cookbook.html">浙菜</a></li>
+							<li><a href="cookbook.html">湖北菜</a></li>
+							<li><a href="cookbook.html">清真菜</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+						<li><a href="Ingredients.html">食材</a></li>
+							<li><a href="perfect.html">中国好食材</a></li>
+							
+						</div>
+						<div class="two">
+						<li><a href="meibaishicai.html">美白食材</a></li>
+						<li><a href="meirongshoushen.html">美白瘦身</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="health.html">真正的健康</a></li>
+							<li><a href="meirongshoushen.html">美容瘦身</a></li>
+							<li><a href="yangshengmiaofang.html">养生妙方</a></li>
+							<li><a href="yinshijinji.html">饮食禁忌</a></li>
+							<li><a href="zhongyibaojian.html">中医保健</a></li>
+						</div>
+						<div class="two">
+							<li><a href="#zhuanti">专题</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<div class="one">
+							<li><a href="#shanxi">陕西特色</a></li>
+							
+						</div>
+						<div class="two">
+							<li><a href="#pinglun">评论</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+
+	<!-- 菜单一下全部内容 -->
+	<div class="row mainAndfooter">
+		<!-- 轮播 -->
+		<div class="col-md-12">
+			<div class="row lunbo">	
+				<div class="col-md-12">
+					<ul>
+						<li><a href="meiyanshiwu.html">
+							<img src="img/Mlunbo_01.png">
+							<p class="ppp">美颜食物的神级吃法</p>
+	 					</a></li>
+						<li><a href="qingshuang.html">
+							<img src="img/Mlunbo_02.png">
+							<p class="ppp">清爽菠萝花样吃法</p>
+						</a></li>
+						<li><a href="qipian.html">
+							<img src="img/Mlunbo_03.jpg">
+							<p class="ppp">愚人节，那些欺骗我们的美食</p>
+						</a></li>
+						<li><a href="chunshi.html">
+							<img src="img/Mlunbo_04.png">
+							<p class="ppp">春食美颜好食物</p>
+						</a></li>
+						<li><a href="">
+							<img src="img/Mlunbo_05.jpg">
+							<p class="ppp">莓完莓了的草莓甜品</p>
+						</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!-- 轮播按钮 -->
+		<div class="btn">
+			<div class="btn_left">&lt;</div>
+			<div class="btn_right">&gt;</div>
+		</div>
+
+		<!-- main -->
+		<div class="row main">
+
+			<!-- 健康专栏&菜单专栏 -->
+			<div class="row main_top">
+				<div class="col-md-1"></div>
+				<!-- 显示隐藏转换层————健康专栏 -->
+				<div class="main_top_left col-md-7 trans">
+					<a name="zhuanti" id="zhuanti"></a>
+					<span class="span01">健康饮食<a href="health.html">></a></span>
+					<div class="col-md-12 vis">
+						<div class="col-md-6 top_left">
+							<img src="img/health_01.jpg">
+							<h4><a href="http://www.meishichina.com/Health/JianKang/201704/209904.html">远离癌细胞 远离十大饮食习惯</a></h4>
+							<span>2016-03-07</span>
+						</div>
+						<div class="col-md-6 top_right">
+							<h4><a href="https://po.baidu.com/feed/share?context={%22nid%22:%22news_12165749372880681920%22}">老年人贫血莫急 补血食谱送给你</a></h4>
+							<span>2016-03-07</span>
+							<p><a href="https://po.baidu.com/feed/share?context={%22nid%22:%22news_12165749372880681920%22}">随着年龄的增长，骨髓的造血功能逐渐衰退，红髓细胞在60岁后进一步减少，80岁时仅为成年时的29%，往往导致老年人贫血。而且，老年人睾丸素分泌不足，红细胞生成素分泌减少，因而贫血在老年男性更为明显...</a></p><br><br><br><br>
+						</div>
+						<div class="col-md-6 bottom_left">
+							<h4><a href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3737269535754956288%22%7D">6类抗辐射食物 健康又美味</a></h4>
+							<span>2016-03-04</span>
+							<p><a href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&for=pc&context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3737269535754956288%22%7D">很多孕妈就算怀孕，也还是会继续工作，这时候她们会穿上辐射服，来抵抗辐射。其实有时候美食也能抵抗辐射，效果非常的棒。西红柿、西瓜、红葡萄柚等红色水果里面含有大量的番茄红素，它不仅能抗氧化还能美容抗衰老...</a></p>
+						</div>
+						<div class="col-md-6 bottom_right">
+							<img src="img/health_02.jpg">
+							<h4><a href="http://www.meishichina.com/Health/Food/201704/209736.html">四月香椿正当时原来香椿的功效这么多</a></h4>
+							<span>2016-03-04</span>
+						</div>	
+					</div>
+					<div class="col-md-12 hid">
+						<div class="col-md-6 top_right">
+							<h4><a href="meiyan.html">那些美艳食物的神级吃法</a></h4>
+							<span>2016-03-02</span>
+							<p><a href="">女人都是爱美的，为了美丽，很多女性总是选择去美容院保养皮肤。其实，护肤需要的是一种健康的生活方式，而不是昂贵的美容护肤品。日常生活中的食物，照样能让你的肌肤光彩照人，吃出白嫩肌肤...</a></p>
+						</div>
+						<div class="col-md-6 top_left">
+							<img src="img/health_03.jpg">
+							<h4><a href="http://www.xiachufang.com/recipe/1059132/">蔓越梅燕麦饼干</a></h4>
+							<span>2016-03-02</span>
+						</div>
+
+						<div class="col-md-6 bottom_right">
+							<img src="img/health_04.jpg">
+							<h4><a href="http://home.meishichina.com/recipe-256731.html">【金玉满堂】豌豆玉米炒虾仁</a></h4>
+							<span>2016-03-02</span>
+						</div>
+						<div class="col-md-6 bottom_left">
+							<h4><a href="http://www.meishichina.com/mofang/congmingnvrenchideyangshengcai/">聪明女人都在吃地养生菜</a></h4>
+							<span>2016-03-01</span>
+							<p><a href="http://www.meishichina.com/mofang/congmingnvrenchideyangshengcai/">秋季是养生的好季节，女性养生也重在秋季，而秋冬也是收敛和收藏的季节，因此，这个时候补进来的营养很容易被身体吸收，那秋季该如何进补?女性应该吃哪些养生菜呢?大家一起来看看那些聪明女人的养生菜谱吧。...</a></p>	
+						</div>
+					</div>
+				</div>
+				<!-- 显示隐藏转换层按钮 -->
+				<button class="point_hid"></button>
+				<button class="point_vis"></button>
+		
+				<!-- 菜谱专栏 -->
+				<div class="main_top_right col-md-4">
+					<span class="span01">菜谱大全<a href="cookbook.html">></a></span>
+					<div class="col-md-10 add_border">
+						<div class="col-md-4">
+							<div class="Dat">
+								<h3>东北菜</h3>
+								<p>2016-02</p>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<p><a href="cookbook.html">东北菜的特点是一菜多味、咸甜分明、用料广泛<br><br></a></p>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="col-md-4">
+							<div class="Dat">
+								<h3>清真菜</h3>
+								<p>2016-02</p>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<p><a href="cookbook.html">特色风味，特色民族的，就来份清真菜<br><br></a></p>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="col-md-4">
+							<div class="Dat">
+								<h3>川菜</h3>
+								<p>2016-02</p>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<p><a href="cookbook.html">川菜取材广泛，调味多变，菜式多样<br><br></a></p>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="col-md-4">
+							<div class="Dat" style="border:none;">
+								<h3>鲁菜</h3>
+								<p>2016-02</p>
+							</div>
+						</div>
+						<div class="col-md-8" style="border:none;">
+							<p><a href="cookbook.html">注重风味独特，制作精细的就做鲁菜</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 热门评论&最新珍选 -->
+			<div class="row main_bottom">
+				<div class="col-md-1"></div>
+
+				<!-- 热门评论 -->
+				<div class="main_bottom_left col-md-7">
+					<a name="pinglun" id="pinglun"></a>
+					<span class="span01">热门评论<a href="">></a></span>
+					<div class="col-md-12">
+						<div class="col-md-6 top_right">
+							<h4><a href="http://chihe.sohu.com/20160824/n465687637.shtml">糖不甩：甜到心坎，还是甜到忧伤</a></h4>
+							<span>2016-08-24</span>
+							<p><a href="http://chihe.sohu.com/20160824/n465687637.shtml">到成都，因为飞机误点，所以去武侯祠旁的锦里逛逛。说实话，那里的工艺品和仿古建筑其实并不算十分有特色，但小吃王国的街边大餐却足以让人流连。而其中最让人印象深刻者，莫过于表演型美食——“三大炮”...</a></p>
+						</div>
+						<div class="col-md-6 top_right">
+							<h4><a href="http://chihe.sohu.com/20160829/n466562633.shtml">就是这条路！能让你吃一个月不重样儿！</a></h4>
+							<span>2016-08-29</span>
+							<p><a href="http://chihe.sohu.com/20160829/n466562633.shtml">有那么一商圈儿~满满的美食~
+							它就叫“曼哈顿”但是，离曼哈顿不远的地方有一条路那里同样有超级多的美食你想吃的，那一条路上基本上都能找到...</a></p><br><br><br><br>
+						</div>
+		
+						<div class="col-md-6 bottom_left change01 bo">
+							<h4><a href="http://chihe.sohu.com/20161011/n469980989.shtml">不谈按摩，谈秋刀鱼</a></h4>
+							<span>2016-10-11</span>
+							<p><a href="http://chihe.sohu.com/20161011/n469980989.shtml">最早讨论这个话题的时候， 我想到的是日本导演小津安二郎的电影《秋刀鱼的滋味》，那是还是一个文艺青年，后来证明，世界上不存在“文艺中年”这个说法，要么就是人民群众...</a></p>
+						</div>
+						<div class="col-md-6 bottom_right bo">
+							<h4 class="change02"><a href="http://chihe.sohu.com/20160820/n465135169.shtml">柴火鸡、偏要让你守着铁锅流口水</a></h4>
+						</div>	
+					</div>
+				</div>
+
+				<!-- 最新珍选 -->
+				<div class="col-md-4">
+					<span class="span01" style="padding-top:35px;">最新珍选<a href="">></a></span>
+					<div class="col-md-10 change04">
+						<h4 class="change05"><a href="http://www.360doc.com/content/16/0507/09/32488907_556960468.shtml">
+						吃火锅的配菜大全</a></h4>
+						<p><a href="http://www.360doc.com/content/16/0507/09/32488907_556960468.shtml">冬季气候寒冷，火锅会让人感到温暖，但大部分人却不知道，火锅吃起来还有很多将就。冬季吃火锅选对食材才能吃的健康...</a></p>
+						<h4><a href="http://mt.sohu.com/20150316/n409846945.shtml">中国最受欢迎的60道菜，一定要吃遍</a></h4>
+						<p><a href="http://mt.sohu.com/20150316/n409846945.shtml">中国的饮食文化，源远流长，种类丰富，品种之多令人数也数不过来。还有哪些你没吃过的？快来自测一下吧~...</a></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- 模糊高清显示链接&陕西特色 -->
+			<div class="row lianjie">
+				<!-- 模糊高清显示链接 -->
+				<div class="col-md-4">
+					<div class="img01"><a href="http://home.meishichina.com/recipe-297937.html"><img style="margin-left:120px;" src="img/img_08.gif"></a></div>
+					<div class="img02"><a href="http://jingyan.baidu.com/article/72ee561a80cc02e16138df9e.html"><img src="img/img_09.gif"></a></div>
+				</div>
+				<!-- 陕西特色 -->
+				<div class="col-md-6 col-md-offset-2">
+					<a name="shanxi" id="shanxi"></a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_01.jpg"><br>
+						<span>羊肉泡馍</span>
+					</a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_02.jpg"><br>
+						<span>肉夹馍</span>
+					</a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_03.jpg"><br>
+						<span>陕西凉皮</span>
+					</a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_06.jpg"><br>
+						<span>臊子面</span>
+					</a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_07.jpg"><br>
+						<span>豆腐脑</span>
+					</a>
+					<a href="shanxi.html">
+						<img src="img/shanxi_08.jpg"><br>
+						<span>千层油酥饼</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 返回顶部log -->
+		<div id="backTop"><a href="#top"><img src="img/back_top.png" alt="返回顶部"></a></div>
+
+		<!-- 低栏————学校地址-->
+		<div class="row footer">
+			<!-- 学校地址 -->
+			<div class="col-md-5">
+				<div class="p1 foot">
+					<span>曲江校区</span>
+					<p>西安市曲江校区58号</p>
+					<p>XXXXXXXXXX</p>
+					<p>710048</p>
+				</div>
+				<div class="p1">
+					<span>金花校区</span>
+					<p>西安市金花校区5号</p>
+					<p>XXXXXXXXX</p>
+					<p>710048</p>
+				</div>
+			</div>
+			<!-- 吃货的世界标志 -->
+			<div class="col-md-4">
+				<img src="img/log_03.png">
+			</div>
+			<!-- QQ,微信，微博 -->
+			<div class="col-md-3">
+				<a class="weibo" href=""><img src="img/weibo.png"></a>
+				<img class="weixin" src="img/weixin.png">
+				<a class="QQ" href=""><img src="img/QQ.png"></a>
+			</div>
+			<!-- 浮出的二维码 -->
+			<div class="erweima">
+				<a href="img/weixinerweima.jpg"><img class = "chat" src="img/weixinerweima.jpg"></a>
+				<a href="img/QQerweima.jpg"><img class = "qqt" src="img/QQerweima.jpg"></a>
+			</div>
+		</div>
+
+		<!-- 页尾 -->
+		<div class="row copy">
+				<div class="col-md-6 col-md-offset-3">
+					<p>      Copyright © 2017 |  陕ICP备05001616号     | 陕西省，西安市碑林区，西安理工大学金花校区
+					<a href="https://github.com/WangGaiJuan">王小改</a></p>
+				</div>
+		</div>
+	</div>
+	<div class="zhuangshi">
+		<img src="img/zhuangshi.jpg" alt="">
+	</div>
+</div>
+</body>
+</html>

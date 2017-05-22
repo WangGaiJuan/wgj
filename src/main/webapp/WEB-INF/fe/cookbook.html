@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>菜谱</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/cookbook.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/完美框架.js"></script>
+	<script type="text/javascript" src="js/holder.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+
+</head>
+<body>
+<span name="top" id="top"></span>
+<div class="container-fluid">
+	<!-- header -->
+	<div class="row top">
+		<div class="col-md-8 col-md-offset-1">
+			<a href="index.html">吃货首页</a>
+			<a href="cookbook.html">菜谱</a>
+			<a href="Ingredients.html">食材</a>
+			<a href="health.html">健康</a>
+			<a href="meirongshoushen.html">美容瘦身</a>
+		</div>
+		<div class="col-md-1 col-md-offset-2">
+			<a href="login.html">登陆</a>
+			<a href="regist.html">注册</a>
+		</div>
+	</div>
+	<!-- search -->
+	<div class="row sear">
+		<div class="col-md-1"></div>
+		<div class="col-md-5 set_img"><img src="img/Mlog.png"></div>
+		<div class="col-md-6">
+			<div id="hid">
+				<img src="img/Mlog_02.png" >
+				<input type="text" class="tex" placeholder="Search">
+			</div>
+			<a href="javascript:;" class="sub">
+			<span class="glyphicon glyphicon-search" style="color:#000;">
+			</span></a>
+		</div>
+	</div>
+
+	<!-- menu -->
+	<div class ="row menu">
+		<ul>
+			<a href="#chuancai"><li>特色川菜</li></a>
+			<a href="#yuecai"><li>特色粤菜</li></a>
+			<a href="#dongbeicai"><li>特色东北菜</li></a>
+			<a href="#xiangcai"><li>特色湘菜</li></a>
+			<a href="#lucai"><li>特色鲁菜</li></a>
+			<a href="#zhecai"><li>特色浙菜</li></a>
+			<a href="#hubeicai"><li>特色湖北菜</li></a>
+			<a href="#qingzhencai"><li>特色清真菜</li></a>
+		</ul>
+	</div>
+
+	 <!-- 川菜 -->
+	<div class = 'menuColumn'>
+		<a name="chuancai" id = "chuancai">
+			<h2>川菜是最有特色的百姓菜</h2>
+			<div class="caipuColumn">
+				<img src="img/food_01.jpg" alt="回锅肉">
+				<p>回锅肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_02.jpg" alt="水煮肉片">
+				<p>水煮肉片</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_03.jpg" alt="鱼香肉丝">
+				<p>鱼香肉丝</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_04.jpg" alt="粉蒸牛肉">
+				<p>粉蒸牛肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_05.jpg" alt="酸菜鱼">
+				<p>酸菜鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_06.jpg" alt="红红火火水煮鱼">
+				<p>红红火火水煮鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_07.jpg" alt="麻婆豆腐">
+				<p>麻婆豆腐</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_08.jpg" alt="辣子鸡">
+				<p>辣子鸡</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 粤菜 -->
+	<div class = 'menuColumn'>
+		<a name="yuecai" id= "yuecai">
+			<h2>粤菜让你品尝食材的本味</h2>
+			<div class="caipuColumn">
+				<img src="img/food_09.jpg" alt="菠萝咕咾肉">
+				<p>菠萝咕咾肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_10.jpg" alt="砂锅盐焗鸡">
+				<p>砂锅盐焗鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_11.jpg" alt="喝过一次就念念不忘的猪肚包鸡">
+				<p>喝过一次就念念不忘的猪肚包鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_12.jpg" alt="腊肉煲仔饭">
+				<p>腊肉煲仔饭</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_13.jpg" alt="叉烧肉">
+				<p>叉烧肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_14.jpg" alt="白果腐竹猪肚汤">
+				<p>白果腐竹猪肚汤</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_15.jpg" alt="豉香排骨">
+				<p>豉香排骨</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_16.jpg" alt="清蒸珍珠斑">
+				<p>清蒸珍珠斑</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 东北菜 -->
+	<div class = 'menuColumn'>
+		<a name="dongbeicai" id="dongbeicai">
+			<h2>东北菜一菜多味，咸甜分明，讲究造型</h2>
+			<div class="caipuColumn">
+				<img src="img/food_17.jpg" alt="地三鲜">
+				<p>地三鲜</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_18.jpg" alt="松蘑炖鸡">
+				<p>松蘑炖鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_19.jpg" alt="空气炸锅版地三鲜">
+				<p>空气炸锅版地三鲜</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_20.jpg" alt="蘑菇炖鸡">
+				<p>蘑菇炖鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_21.jpg" alt="东北大拌菜">
+				<p>东北大拌菜</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_22.jpg" alt="小鸡炖蘑菇">
+				<p>小鸡炖蘑菇</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_23.jpg" alt="头菜拌牛肉">
+				<p>头菜拌牛肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_24.jpg" alt="东北熏肉卷">
+				<p>东北熏肉卷</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 湘菜 -->
+	<div class = 'menuColumn'>
+		<a name="xiangcai" id="xiangcai">
+			<h2>湘菜尤重酸辣，是一个地方的风味菜</h2>
+			<div class="caipuColumn">
+				<img src="img/food_25.jpg" alt="剁椒鱼头">
+				<p>剁椒鱼头</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_26.jpg" alt="肉丁炒外婆菜">
+				<p>肉丁炒外婆菜</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_27.jpg" alt="春笋炒腊肉">
+				<p>春笋炒腊肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_28.jpg" alt="湘西土匪鸭">
+				<p>湘西土匪鸭</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_29.jpg" alt="农家小炒肉">
+				<p>农家小炒肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_30.jpg" alt="湘版臭鳜鱼">
+				<p>湘版臭鳜鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_31.jpg" alt="蒜香豆干五花肉">
+				<p>蒜香豆干五花肉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_32.jpg" alt="盐菜蒸腊肉">
+				<p>盐菜蒸腊肉</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 鲁菜 -->
+	<div class = 'menuColumn'>
+		<a name="lucai" id="lucai">
+			<h2>注重风味独特，制作精细的就做鲁菜</h2>
+			<div class="caipuColumn">
+				<img src="img/food_33.jpg" alt="黄焖鸡米饭">
+				<p>黄焖鸡米饭</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_34.jpg" alt="四喜丸子">
+				<p>四喜丸子</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_35.jpg" alt="脂渣炖白菜豆腐">
+				<p>脂渣炖白菜豆腐</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_36.jpg" alt="鲜虾炒白菜">
+				<p>鲜虾炒白菜</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_37.jpg" alt="拔丝苹果">
+				<p>拔丝苹果</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_38.jpg" alt="老醋海凉粉">
+				<p>老醋海凉粉</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_39.jpg" alt="山东风味五香香肠">
+				<p>山东风味五香香肠</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_40.jpg" alt="梅菜肉饼">
+				<p>梅菜肉饼</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 浙菜 -->
+	<div class = 'menuColumn'>
+		<a name="zhecai" id="zhecai">
+			<h2>美丽传说，文化色彩浓郁的浙菜</h2>
+			<div class="caipuColumn">
+				<img src="img/food_41.jpg" alt="酸甜酥香的酥焖鲫鱼">
+				<p>酸甜酥香的酥焖鲫鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_42.jpg" alt="叫花鸡">
+				<p>叫花鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_43.jpg" alt="火腿蒸鲈鱼">
+				<p>火腿蒸鲈鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_44.jpg" alt="西湖牛肉羹">
+				<p>西湖牛肉羹</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_45.jpg" alt="花雕熏鱼">
+				<p>花雕熏鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_46.jpg" alt="油焖春笋">
+				<p>油焖春笋</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_47.jpg" alt="梅酱配炸响铃">
+				<p>梅酱配炸响铃</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_48.jpg" alt="江南卤鸭">
+				<p>江南卤鸭</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 湖北菜 -->
+	<div class = 'menuColumn'>
+		<a name="hubeicai" id="hubeicai">
+			<h2>湖北菜以咸鲜为本，注重本色</h2>
+			<div class="caipuColumn">
+				<img src="img/food_49.jpg" alt="莲藕蒸排骨">
+				<p>莲藕蒸排骨</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_50.jpg" alt="热姜汁藕片">
+				<p>热姜汁藕片</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_51.jpg" alt="皮条鳝鱼">
+				<p>皮条鳝鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_52.jpg" alt="武汉糍粑鱼">
+				<p>武汉糍粑鱼</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_53.jpg" alt="地菜花蒸鸡蛋">
+				<p>地菜花蒸鸡蛋</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_54.jpg" alt="合渣">
+				<p>合渣</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_55.jpg" alt="捣蒜水">
+				<p>捣蒜水</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_56.jpg" alt="粉蒸肉">
+				<p>粉蒸肉</p>
+			</div>
+		</a>
+	</div>
+
+	<!-- 清真菜 -->
+	<div class = 'menuColumn'>
+		<a name="qingzhencai" id="qingzhencai">
+			<h2>特色风味，特色民族的，就来份清真菜</h2>
+			<div class="caipuColumn">
+				<img src="img/food_57.jpg" alt="大盘鸡">
+				<p>大盘鸡</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_58.jpg" alt="风味羊排">
+				<p>风味羊排</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_59.jpg" alt="焦熘牛肉片">
+				<p>焦熘牛肉片</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_60.jpg" alt="干煸牛心">
+				<p>干煸牛心</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_61.jpg" alt="醋溜木须">
+				<p>醋溜木须</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_62.jpg" alt="白菜豆腐卷">
+				<p>白菜豆腐卷</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_63.jpg" alt="番茄虾仁">
+				<p>番茄虾仁</p>
+			</div>
+			<div class="caipuColumn">
+				<img src="img/food_64.jpg" alt="馕包肉">
+				<p>馕包肉</p>
+			</div>
+		</a>
+	</div>
+
+	<div id="backTop"><a href="#top"><img src="img/back_top.png" alt="返回顶部"></a></div>
+
+	<div class="row copy">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<p>      Copyright © 2017 |  陕ICP备05001616号     | 陕西省，西安市碑林区，西安理工大学金花校区
+			<a href="https://github.com/WangGaiJuan">王小改</a></p>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+
+
+</div>
+</body>
+</html>

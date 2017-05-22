@@ -1,0 +1,188 @@
+body{
+	margin:0px;
+	padding:0px;
+	border: 0px;
+}
+
+/* top_start */
+.top{
+	height:36px;
+	line-height: 36px;
+	background:#333;	
+}
+.top .col-md-8{
+	padding:0px;
+}
+
+.top .col-md-2{
+	padding:0px;
+}
+
+.top a{
+	color:#ff9966;
+	font-size:12px;
+	margin-left:5px;
+}
+
+.top a:hover{
+	color:#fff;
+}
+
+.top a:hover{
+	text-decoration: none;
+}
+/* top_end */
+
+/* search_start */
+.sear{
+	height:105px;
+	//background:#f6f6f6;
+	//background: #d5eeea;
+}
+
+.sear .col-md-5{
+	padding: 0px;
+	line-height: 100px; 
+}
+
+.sear .col-md-5 img{
+	width:180px;
+	height:90px;
+}
+
+#hid{
+	width:480px;
+	height:90px;
+	overflow: hidden;
+	padding-left:35px;
+	float: left;
+}
+
+.sear .col-md-6{
+	padding: 0px;
+	line-height: 90px; 
+	padding-left:140px;
+}
+
+.sear .col-md-6 img{
+	width:290px;
+	height:90px;
+	line-height: 100px; 
+	position: relative;
+	right:-150px;
+}
+
+.sear .col-md-6 .tex{
+	line-height:30px;
+	position: relative;
+	top:5px;
+	right:-150px;
+	background: transparent;
+	border:none;
+	color:#000;
+}
+
+.sear .col-md-6 .sub{
+	line-height:40px;
+	float: left;
+	margin-top:30px;
+	margin-left:5px;
+}
+/* search_end */
+
+/* 更多链接-start */
+#More{
+	width:100px;
+	background-color: #444;
+	position: fixed;
+	top:400px;
+	left: 0;
+	background: #333;
+}
+.More_list{
+	width:100px;
+	height:36px;
+	line-height: 36px;
+	border-bottom:1px solid #eee;
+}
+
+.More_list a{
+	color: #eee;
+}
+/* 更多链接-end */
+
+
+/* menu_start */
+.menu{
+	background: #FF4040;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	width: 140px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	text-align: center;
+	margin-left:20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color:#333;
+	font-size: 16px;
+}
+
+.menu ul a:hover{
+	text-decoration: none;
+	font-size: 18px;
+}
+/* menu_end */
+
+/* backTop_start */
+#backTop{
+	width:40px;
+	height:60px;
+	position: fixed;
+	bottom:45px;
+    right:0px;
+	font-size: 16px;
+	display: none;
+}
+
+#backTop img{
+	width: 40px;
+	height: 40px;
+}
+/* backTop_end */
+
+/* copy_start */
+.copy{
+	background: #333;
+	margin-right: -15px;
+	color:#aaa;
+	font-size:12px;
+}
+
+.copy .col-md-6 p{
+	padding-left:50px;
+}
+
+.copy a{
+	color:#aaa;
+	font-size:12px;
+}
+
+.copy a:hover{
+	color:#f00;
+}
+
+.copy .col-md-6{
+	padding:0px;
+	line-height:10px;
+	margin-top:10px;
+}
+/* copy_end */

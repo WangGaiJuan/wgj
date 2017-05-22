@@ -1,0 +1,63 @@
+/* shanxi-start */
+.shanxi{
+	width:1100px;
+	//height:1500px; 
+	margin-left:110px;
+	//background-color: #FFF0F5;
+	padding:20px;
+}
+
+.shanxi h2{
+	width:200px;
+	height: 60px;
+	line-height: 60px;
+	color: #333;
+	float: left;
+	background:  #EE5C42;
+	margin-left: -20px;
+	margin-top:-20px;
+}
+
+.sanjiao{
+	margin-top:-20px;
+	float: left;
+	border-top:30px solid  transparent;
+	border-right:40px solid  transparent;
+	border-bottom:30px solid  transparent;
+	border-left: 40px solid  #EE5C42;
+}
+
+.content {
+	width: 1100px;
+	height: 250px;
+	clear: both;
+	margin-left: -20px;
+}
+
+.content span{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #FF0000;
+}
+
+.content p{
+	width:780px;
+	font-size: 18px;
+	color:#2B2B2B;
+	float: left;
+	//background: #fefdcd;
+	word-wrap: break-word;
+	margin-top: 40px;
+}
+
+.content img{
+	width:300px;
+	height: 200px;
+	float: left;
+	margin-left:20px; 
+}
+
+
+/* shanxi-end */

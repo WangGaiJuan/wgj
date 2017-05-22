@@ -1,0 +1,91 @@
+/* 美颜食物的神级吃法 */
+
+/* container-start */
+.container{
+	width: 1349px;
+	//background: #d2efea;
+	padding:0px;
+	margin-left: -15px;
+}
+
+.container img{
+	width:100%;
+	height: 280px;
+}
+
+.content{
+	width:1000px;
+	background: #fff;
+	margin:auto;
+	margin-top: 20px;
+}
+
+.content h3{
+	color: red;
+	padding-top: 20px;
+}
+
+.special{
+	width:20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 10px;
+	float: left;
+	margin-top:5px;
+}
+
+.special_set{
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	position: relative;
+	top:5px;
+	left:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.content span{
+	margin-left: 20px;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.content p{
+	font-size: 16px;
+	line-height: 23px;
+	padding-top: 10px;
+}
+
+.img_set{
+	width:230px;
+	height: 270px;
+	//background: #dfddcd;
+	float: left;
+	margin-right: 26px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.special_img{
+	margin-right: 0px;
+}
+
+.img_set:hover{
+	color: red;
+}
+
+.img_set img{
+	width:230px;
+	height: 230px;
+}
+
+.img_set p{
+	width: 200px;
+	line-height: 30px;
+	padding-left:65px;
+}
+

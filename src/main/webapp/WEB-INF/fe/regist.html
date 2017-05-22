@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/regist.js"></script>
+	<script>
+	/*window.onload = function(){
+		var oUsername = document.getElementById('username');
+		var oPassword = document.getElementById('password');
+		var oAge = document.getElementById('age');
+		var oCellphone = document.getElementById('cellphone');
+		var oSex = document.getElementById('sex');
+		var oRegist = document.getElementById('regist');
+
+		oRegist.onclick = function(){
+			if(oUsername.value == ''){
+				alert('用户名不可为空');
+			}else if(oPassword.value == ''){
+				alert('密码不可为空');
+			}else if(oAge.value == ''){
+				alert('年龄不可为空')
+			}else if(oCellphone.value == ''){
+				alert('手机号码不可为空')
+			}else if(oSex.value == ''){
+				alert('性别不可为空')
+			}else{
+				self.location='login.html';
+			}
+		}
+	}*/
+	</script>
+
+	<style>
+	body{
+		padding: 0px;
+		margin:0px;
+		border: 0px;
+		color: rgb(20,68,106);
+	}
+
+	form{
+		width:100%;
+		height:400px;
+		background-image: url("img/Lbg.jpg");
+		background-position:center;
+		margin:auto;
+		text-align: center;
+		margin-top: 100px;
+		padding-top: 50px;
+	}
+
+	form input {
+		width:500px;
+		height:26px;
+		line-height: 26px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#male{
+		width:50px;
+		height: 13px;
+	}
+
+	#female{
+		width:50px;
+		height: 13px;
+	}
+
+	.sex{
+		height: 36px;
+		line-height: 36px;
+		margin-left: 50px;
+	}
+
+	#sex{
+		height: 50px;
+		line-height: 50px;
+		margin-left: -265px;
+	}
+
+	#login{
+		width:120px;
+		height: 36px;
+		line-height: 36px;
+		background-color: rgb(3,38,58);
+		color: #fff;
+		border: none;
+		margin-top: 30px;
+	}
+
+	#regist{
+		width:120px;
+		height: 36px;
+		line-height: 36px;
+		background-color: rgb(3,38,58);
+		color: #fff;
+		border: none;
+	}
+
+	form a{
+		text-decoration: none;
+	}
+
+	</style>
+
+</head>
+<body>
+	<form action="user/register.do" method="post">
+		<h1>注册</h1>
+		<label for="username">用户名</label>
+		<input type="text" name="username" id = "username"><br>
+
+		<label for="password">密码</label>&nbsp;&nbsp;&nbsp;
+		<input type="text" name="password" id = "password"><br>
+
+		<label for="age">年龄</label>&nbsp;&nbsp;&nbsp;
+		<input type="text" name="age" id = "age"><br>
+
+		<label for="cellphone">手机</label>&nbsp;&nbsp;&nbsp;
+		<input  type="text" name="cellphone" id = "cellphone"><br>
+		
+		<a href="login.html"><input type="button" id = "login" value = "登陆"></a>
+		<a href=""><input type="button" id = "regist" value = "注册"></a>
+		
+	</form>
+	<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+	<button id="b01" type="button">Change Content</button>
+</body>
+</html>

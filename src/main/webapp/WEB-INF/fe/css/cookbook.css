@@ -1,0 +1,45 @@
+/* cookbook.css */
+
+/* 不同菜系_start */
+.menuColumn{
+	width:1260px;
+	height:726px;
+	margin-left: 45px;
+	background:url("../img/bac_07.jpg");
+}
+
+.menuColumn a{
+	text-decoration: none;
+}
+
+.menuColumn h2{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: rgb(90,13,67);
+}
+
+.caipuColumn{
+	width:272px;	
+	height: 308px;
+	background-color: #fff;
+	padding: 20px;
+	float: left;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+.caipuColumn img{
+	width:232px;
+	height: 232px;
+}
+
+.caipuColumn p {
+	width: 232px;
+	height: 36px;
+	line-height: 36px;
+	background-color: rgb(131,175,155);
+	background-color: #ccc;
+	text-align: center;
+}
+/* 不同菜系_end */
