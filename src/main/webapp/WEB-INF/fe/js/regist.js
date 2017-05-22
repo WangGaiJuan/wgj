@@ -1,5 +1,12 @@
 $(document).ready(function(){
-	$.ajax({
+	var username = document.getElementById('userName');
+	var ousername = document.getElementById('userName').value;
+	var btn = document.getElementById('btn');
+	btn.click=function(){
+		alert(ousername);
+	}
+	
+	/*$.ajax({
         type: "post",//数据发送的方式（post 或者 get）
         url: "/user/register.do",//要发送的后台地址
         data: {"username":'s',"password":'s',"age":'12',"cellphone":'123'},//要发送的数据（参数）格式为{'val1':"1","val2":"2"}
@@ -10,7 +17,7 @@ $(document).ready(function(){
         error: function (msg) {//ajax请求失败后触发的方法
             alert(msg);//弹出错误信息
         }
-    });
+    });*/
 });
 
 
