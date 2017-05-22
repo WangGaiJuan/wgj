@@ -33,7 +33,7 @@ public class UserService implements IUserService {
     /**
      * 用户认证
      */
-    public boolean Authencication() {
+    public boolean Authencication(String userName, String password) {
         return true;
     }
 }

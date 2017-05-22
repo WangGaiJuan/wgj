@@ -19,5 +19,5 @@ public interface IUserService {
     /**
      * 用户认证
      */
-    boolean Authencication();
+    boolean Authencication(String userName, String password);
 }

@@ -18,5 +18,9 @@ public interface UserDao {
 
     int update(User user);
 
+    User selectUserByUserName(String userName);
+
+    boolean userExist(String userName);
+
     List<User> selectAll();
 }
