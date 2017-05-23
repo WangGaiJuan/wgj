@@ -1,23 +1,33 @@
 $(document).ready(function(){
-	var username = document.getElementById('userName');
-	var ousername = document.getElementById('userName').value;
-	var btn = document.getElementById('btn');
-	btn.click=function(){
-		alert(ousername);
-	}
-	
-	/*$.ajax({
-        type: "post",//数据发送的方式（post 或者 get）
-        url: "/user/register.do",//要发送的后台地址
-        data: {"username":'s',"password":'s',"age":'12',"cellphone":'123'},//要发送的数据（参数）格式为{'val1':"1","val2":"2"}
-        dataType: "json",//后台处理后返回的数据格式
-        success: function (data) {//ajax请求成功后触发的方法
-            alert('请求成功');
-        },
-        error: function (msg) {//ajax请求失败后触发的方法
-            alert(msg);//弹出错误信息
-        }
-    });*/
+    function GetJsonData() {
+        var json ={
+            "userName":$("#userName").val(),
+            "password":$("#password").val(),
+            "age":$("#age").val(),
+            "cellphone":$("#cellphone").val()
+        };
+        return json;
+    }
+
+    $("#regist").click(function() {
+        $.ajax({
+            type: "POST",
+            url: "/user/register.do",
+            contentType: "application/json; charset=utf-8",
+            data:GetJsonData(),
+            dataType: "json",
+            success: function (message) {
+                if (message = 0) {
+                    alert("ok");
+                    self.location='login.html';
+                }
+            },
+            error: function (message) {
+                alert("no");
+            }
+        });
+    });
+
 });
 
 

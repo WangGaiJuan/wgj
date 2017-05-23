@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>登陆</title>
 	<script>
-	window.onload = function(){
-		var oUsername = document.getElementById('username');
+	/*window.onload = function(){
+		var oUsername = document.getElementById('userName');
 		var oPassword = document.getElementById('password');
 		var oLogin = document.getElementById('login');
 		oLogin.onclick = function(){
@@ -17,7 +17,7 @@
 				self.location='index.html';
 			}
 		}
-	}
+	}*/
 	</script>
 	<style>
 	body{
@@ -73,13 +73,13 @@
 </head>
 <body>
 
-	<form action="">
+	<form action="/user/login.do">
 		<h1>登陆</h1>
-		<label for="username">用户名</label>
-		<input type="text" id = "username"><br>
+		<label for="userName">用户名</label>
+		<input type="text" name="userName" id = "userName"><br>
 
 		<label for="password">密码</label>&nbsp;&nbsp;&nbsp;
-		<input type="password" id = "password"><br>
+		<input type="password" name="password" id = "password"><br>
 
 		<a href=""><input type="button" id = "login" value = "登陆"></a>
 		<a href="regist.html"><input type="button" id = "regist" value = "注册"></a>
