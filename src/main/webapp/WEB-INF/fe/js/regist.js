@@ -17,13 +17,15 @@ $(document).ready(function(){
             data:JSON.stringify(GetJsonData()),
             //dataType: "json",
             success: function (date,message,x) {
-                if (message = 0) {
+                /*if (message = 0) {
                     alert("ok");
                     self.location='login.html';
-                }
+                }*/
             },
-            error: function (message) {
-                alert("no");
+            error: function (xhr,msg,obj) {
+                console.log(xhr);
+                console.log(msg);
+                console.log(obj);
             }
         });
     });
