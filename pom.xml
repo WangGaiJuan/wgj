@@ -142,14 +142,25 @@
         </dependency>
         <!--mybatis依赖 end-->
 
+        <!--******** 其他引用 ********-->
+
         <!-- jodatime start-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>2.9.9</version>
         </dependency>
-
         <!-- jodatime end-->
+
+        <!-- -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <!-- -->
+
+        <!--******** 其他引用 ********-->
 
         <!-- javaee-api包 注意和项目使用的JDK版本对应 -->
         <dependency>
