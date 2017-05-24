@@ -13,10 +13,10 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             url: "/user/register.do",
-            contentType: "application/json; charset=utf-8",
+            //contentType: "application/json; charset=utf-8",
             data:JSON.stringify(GetJsonData()),
-            dataType: "json",
-            success: function (message) {
+            //dataType: "json",
+            success: function (date,message,x) {
                 if (message = 0) {
                     alert("ok");
                     self.location='login.html';
