@@ -1,5 +1,8 @@
 package com.readdyjin.personal.model;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
+
 /**
  * Created by weidijin on 17-5-22.
  *
@@ -60,9 +63,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "user: " +
-                "id=[" + String.valueOf(this.id) + "]," +
-                "userName=[" + this.userName + "]," +
-                "";
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
     }
 }
