@@ -14,7 +14,7 @@ $(document).ready(function(){
             type: "POST",
             url: "/user/register.do",
             contentType: "application/json; charset=utf-8",
-            data:GetJsonData(),
+            data:JSON.stringify(GetJsonData()),
             dataType: "json",
             success: function (message) {
                 if (message = 0) {
