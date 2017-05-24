@@ -34,4 +34,10 @@ public class UserDaoTest {
         System.out.println("insert " + user);
         System.out.println("affected rows: " + userDao.insert(user));
     }
+
+    @Test
+    public void selectUserByUserNameTest() throws Exception {
+        user = userDao.selectUserByUserName("test");
+        System.out.println("select " + user);
+    }
 }

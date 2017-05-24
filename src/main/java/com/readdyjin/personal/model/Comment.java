@@ -7,4 +7,10 @@ package com.readdyjin.personal.model;
  * @version 1.0
  */
 public class Comment {
+    private long id;
+    private long userId;
+    private long objId;
+    private String content;
+
+
 }
