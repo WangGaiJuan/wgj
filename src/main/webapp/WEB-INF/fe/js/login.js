@@ -12,7 +12,7 @@ $(document).ready(function(){
             type: "POST",
             url: "user/login.do",
             contentType: "application/json; charset=utf-8",
-            data:GetJsonData(),
+            data:JSON.stringify(GetJsonData()),
             dataType: "json",
             success: function (message) {
                 if (message = 0) {
