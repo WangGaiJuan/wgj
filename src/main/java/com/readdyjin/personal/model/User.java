@@ -62,6 +62,7 @@ public class User {
     public String toString() {
         return "user: " +
                 "id=[" + String.valueOf(this.id) + "]," +
-                "userName=[" + this.userName + "]";
+                "userName=[" + this.userName + "]," +
+                "";
     }
 }
