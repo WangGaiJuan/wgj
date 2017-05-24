@@ -22,6 +22,8 @@ public class UserController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
+    private static final int VALID_REGISTRATION_CODE = 1;
+
     @Autowired
     private IUserService userService;
 
@@ -31,11 +33,13 @@ public class UserController {
     @RequestMapping(value = "/user/register.do", method = RequestMethod.POST)
     @ResponseBody
     public ResponseObject register(@RequestBody User user) {
-        ResponseObject responseObject = new ResponseObject();
-
         LOGGER.info("请求注册用户: " + user);
 
+        ResponseObject responseObject = new ResponseObject().initCommonFailureStatus();
         int affectedRows = userService.Registration(user);
+        if (VALID_REGISTRATION_CODE != affectedRows) {
+            return responseObject;
+        }
 
         return responseObject
                 .setStatus(0)
