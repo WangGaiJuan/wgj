@@ -34,7 +34,7 @@
     <select id="selectUserByUserName" parameterType="java.lang.String" resultType="com.readdyjin.personal.model.User">
         SELECT *
         FROM app_user
-        WHERE user_name=userName
+        WHERE user_name=#{userName}
     </select>
 
     <update id="update" parameterType="com.readdyjin.personal.model.User">
